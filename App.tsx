@@ -3,7 +3,7 @@ import { CircularProgress } from './CircularProgress';
 import { ExerciseIllustration, getExerciseGuide } from './ExerciseIllustration';
 import { Toast } from './Toast';
 import { WeightBars } from './WeightBars';
-import { DAYS, routineData } from './data/routineData';
+import { DAYS, routineData } from './routineData';
 import type { LocationMode, ProfileState, ProgressState, WeightEntry } from './types';
 import { getLocalDateKey, getTodayDayIndex, getWeekFromStartDate } from './date';
 import { calculateBMI, getBmiBadgeStyle, getBmiInfo, getMotivationMessage, sanitizeDecimalInput } from './health';
