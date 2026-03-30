@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { CircularProgress } from './components/CircularProgress';
-import { ExerciseIllustration, getExerciseGuide } from './components/ExerciseIllustration';
-import { Toast } from './components/Toast';
-import { WeightBars } from './components/WeightBars';
+import { CircularProgress } from './CircularProgress';
+import { ExerciseIllustration, getExerciseGuide } from './ExerciseIllustration';
+import { Toast } from './Toast';
+import { WeightBars } from './WeightBars';
 import { DAYS, routineData } from './data/routineData';
 import type { LocationMode, ProfileState, ProgressState, WeightEntry } from './types';
-import { getLocalDateKey, getTodayDayIndex, getWeekFromStartDate } from './utils/date';
-import { calculateBMI, getBmiBadgeStyle, getBmiInfo, getMotivationMessage, sanitizeDecimalInput } from './utils/health';
+import { getLocalDateKey, getTodayDayIndex, getWeekFromStartDate } from './date';
+import { calculateBMI, getBmiBadgeStyle, getBmiInfo, getMotivationMessage, sanitizeDecimalInput } from './health';
 import {
   getDayOverallProgress,
   getDayProgressForMode,
