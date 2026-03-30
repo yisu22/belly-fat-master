@@ -1,4 +1,4 @@
-import { routineData } from '../data/routineData';
+import { routineData } from '../routineData';
 import type { DayData, LocationMode, ModeKey, ProgressState, StageKey, Task } from '../types';
 
 export function getStageKey(week: number): StageKey {
