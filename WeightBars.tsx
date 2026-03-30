@@ -1,4 +1,4 @@
-import { formatShortDate } from '../utils/date';
+import { formatShortDate } from '../date';
 import type { WeightEntry } from '../types';
 
 type WeightBarsProps = {
