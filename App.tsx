@@ -15,8 +15,8 @@ import {
   getRoutineList,
   getStageKey,
   getTaskStorageKey,
-} from './utils/routine';
-import { readStoredJson, writeStoredJson } from './utils/storage';
+} from './routine';
+import { readStoredJson, writeStoredJson } from './storage';
 
 /* ── Storage keys ──────────────────────────── */
 const K_PROGRESS  = 'bfm8-progress';
